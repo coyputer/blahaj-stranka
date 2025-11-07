@@ -25,42 +25,15 @@ nav a {
 }
 
 nav a:hover {
-    color: #FFA3AF;
+    color: #fa788a;
     text-decoration: underline;
-    font-weight: bold;
-    font-family: "Trebuchet MS";
-    font-size: 25px;
 }
 
-#hlavicka {
-    background-color: #4380A4;
-    color: #FFFFF2;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    height: 150px;
-    border: #E1F4FF 2px;
-    text-transform: uppercase;
+#strana {
+    position: relative;
 }
 
-#nadpis {
-    height: 150px;
-}
-
-#nadpis p {
-    padding-top: 30px;
-    padding-left: 40px;
-    font-size: 75px;
-    font-weight: bold;
-    width: 50%;
-    overflow: hidden;
-    text-overflow: clip;
-    white-space: nowrap;
-    text-align: left;
-    font-family: "Garamond";
-    margin: 0px;
-}
-
-body img {
+#strana img {
     height: 500px;
     position: absolute;
     right: 0;
@@ -69,14 +42,32 @@ body img {
     pointer-events: none;
 }
 
-#obsah {
+#hlavicka {
+    background-color: #4380A4;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 150px;
+}
+
+#hlavicka p {
+    color: #FFFFF2;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 75px;
+    font-weight: bold;
+    width: 50%;
+    font-family: "Garamond";
+    margin: 0px;
+}
+
+article {
     background-color: #7CB3D3;
     height: 450px;
     padding-left: 40px;
     padding-top: 20px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    clear: right;
 }
 
 article p {
@@ -88,13 +79,3 @@ article p {
     margin-bottom: 15px;
     padding-right: 40px;
 }
-
-#strana {
-    position: relative;
-}
-
-/* img {
-    display: block;
-    margin-left: auto;
-    position: absolute;
-} */
