@@ -79,3 +79,13 @@ article p {
     margin-bottom: 15px;
     padding-right: 40px;
 }
+
+article a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFF2;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
