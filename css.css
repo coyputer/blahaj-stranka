@@ -35,12 +35,9 @@ nav a:hover {
 
 #strana img {
     height: 500px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 10;
-    pointer-events: none;
+    float: right;
     shape-outside: url(src/blahaj-icon.png);
+    shape-margin: 10px;
 }
 
 #hlavicka {
@@ -64,12 +61,12 @@ nav a:hover {
 
 article {
     background-color: #7CB3D3;
-    height: 450px;
     padding-left: 40px;
     padding-top: 20px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-}
+    overflow: hidden;
+}   
 
 article p {
     font-family: "Trebuchet MS";
