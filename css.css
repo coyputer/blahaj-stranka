@@ -40,6 +40,7 @@ nav a:hover {
     top: 0;
     z-index: 10;
     pointer-events: none;
+    shape-outside: url(src/blahaj-icon.png);
 }
 
 #hlavicka {
