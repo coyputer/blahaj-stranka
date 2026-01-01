@@ -1,3 +1,19 @@
+p {
+    font-family: "Trebuchet MS";
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #ffeaed;
+}
+
+a:hover {
+    color: #ffbac4;
+}
+
 body {
     margin: 25px;
     height: 100%;
@@ -37,30 +53,6 @@ nav a {
 nav a:hover {
     background-color: #ffd1d8;
     color: #432314;
-}
-
-#strana {
-    position: relative;
-    background-color: #4380A4;
-    padding: 20px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-
-#strana p {
-    font-family: "Trebuchet MS";
-    font-size: 1.4rem;
-    line-height: 1.4;
-    margin-top: 0px;
-    margin-bottom: 15px;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    max-height: 500px;
 }
 
 article a {
@@ -116,6 +108,10 @@ td > b {
     font-size: 1.4rem;
 }
 
+li > b {
+    font-size: 1.4rem;
+}
+
 .image-description {
     font-size: 1.1rem;
     font-style: italic;
@@ -128,6 +124,17 @@ td > b {
     font-weight: normal;
 }
 
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 500px;
+}
+
 #zoznam, #zoznam p {
     margin-top: 15px;
     margin-bottom: 0;
@@ -135,18 +142,28 @@ td > b {
     font-weight: bold;
 }
 
-li > b {
-    font-size: 1.4rem;
+#strana {
+    position: relative;
+    background-color: #4380A4;
+    padding: 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#quote p, #quote q {
+    font-family: "Garamond";
+    font-size: 1.5rem;
+}
+
+#quote {
+    border: 1px solid #23586E;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #prvy {
     margin-top: 0;
-}
-
-a {
-    color: #ffeaed;
-}
-
-a:hover {
-    color: #ffbac4;
 }
